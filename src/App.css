@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE5B4;
+}
+
+hr {
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    border: 1px solid grey;
+    width: 400px;
+    transition: transform 200ms ease;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.general-title {
+    text-align: center;
+}
+
+hr {
+    color: white;
+    background-color: red;
+}
+
+.card__list {
+    list-style: none;
+    padding: 0;
+}
+
+.card__item {
+    margin-top: 20px;
+    color: #7F8487;
+}
+
+.card__item span {
+    color: black;
+}
+
+.card__header {
+    background-color: #FF5B00;
+    color: white;
+}
+
+.card__header h2 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.card__info {
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.card_btns {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    padding-right: 10px;
+}
+
+.card__btn:hover {
+    background-color: #7F8487;
+    color: white;
+}
+
+.card__btn:nth-child(1) {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.card__btn:nth-child(2) {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__list {
+    padding: 10px;
+}
+
+.form__item {
+    padding-bottom: 10px;
+}
+
+.form__item input {
+    margin-left: 6px;
+    background-color: #F1EEE9;
+    border: 1px solid #D0C9C0;
+    height: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.form__btn {
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.form__btn:hover {
+    background-color: #7F8487;
+    color: white;
+}
+
+
+
